@@ -73,7 +73,7 @@ font-size: 20px;
 }
 h2,h3{
     display: block;
-    text-align: center;
+    text-align: left;
     justify-content: center;
 }
 .center{
