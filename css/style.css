@@ -1,0 +1,165 @@
+/* *{
+    box-sizing: border-box;
+} */
+body{
+font-size: 20px;
+    
+}
+.navbar{
+    border: 2px solid whitesmoke;
+    margin: 10px;
+    background-color:hsl(208, 11%, 55%);
+    max-width: 100%;
+    /* width: 1100px; */
+}
+.navbar ul li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+   
+}
+.navbar ul  li a{
+    text-decoration: none;
+    margin: 5px;
+    color: #fff;
+    transition: background-color 0.03s;
+
+}
+
+.navbar li a:hover {
+    background-color: #3693ff;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    border: 5px solid lightcyan;
+    background-color: whitesmoke;
+    /* background-image: url("../images/img.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    width: 1100px;
+    height: 800px;
+    text-align: center;
+   
+    align-items: center;
+    margin: auto;
+}
+.box{
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+   background-color: transparent;
+   /* transform: translateY(50%); */
+}
+.box ul{
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.box ul li{
+    list-style: none;
+    color: hsl(208, 11%, 55%);
+    justify-content: center;
+    align-items: center;
+   
+}
+h2,h3{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    /* border: 2px solid hsl(192, 100%, 9%); */
+    /* margin-top: 200px; */
+  
+}
+.box22{
+    margin: 100px;
+
+}
+.box11{
+    border-top: 5px double yellowgreen;
+    border-bottom:5px double yellowgreen ;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0px;
+    background-color: #fff;
+   
+    background-color: transparent;
+   
+}
+.box1{
+    border-top: 5px solid yellowgreen;
+    border-bottom:5px double yellowgreen ;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
+    margin-bottom: 180px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+   background-color: transparent;
+   
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    margin: 0px;
+}
+.flex1 ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+.flex ul li{
+    list-style: none;
+    margin: 100px;
+    font-size: 20px;
+    
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+    
+}
+.social-links a{
+    border: 2px ;
+    height: 50px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    color:blue;
+    padding: 5px;
+}
+.social-links a i{
+   padding: 2px;
+}
+/* Very Palbluee Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%) */
